@@ -1,25 +1,51 @@
-.content {
-    background: chocolate;
-    border: 4px solid black;
-    margin: 0 auto;
-    width: 40%;
-    padding-left: 40px;
-}
-
-body{
-    margin-top: 0;
-    background: #00539f;
-}
-
 h1 {
-    font-size: 60px;
+    font-family: Rage;
+    font-size: 64px;
+    font-style: italic;
     text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    color:#00539f;
-    text-shadow: 3px 3px 1px black;
+    margin-bottom: 10px;
 }
-img {
-    display: block;
-    margin: 0 auto;
+body {
+    background-color: #FDFDFD;
+}
+ul {
+    text-align: CENTER;
+    width: 80%;
+    margin: auto auto;
+}
+li{
+    display: inline;
+}
+li a {
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
+}
+.nav-bar {
+    font-family: Marcellus;
+    font-size: 22px;
+    padding: 20px;
+}       
+a.active {
+    color:rgba(96, 93, 93, 0.7);
+}
+.row {
+    display:flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin:60px auto 0px auto;
+}
+.text-violet{
+    color:#CF60EA;
+    font-family: "Marcellus";
+}
+p {
+    font-size: 20px;
+}
+.card-para {
+    padding: 20px 20px 20px 20px;
+    background: rgba(232, 139, 255, 0.45);
+    border-radius: 20px;
+}
+.card-para:hover{
+    border:2px solid lightpink;
 }
